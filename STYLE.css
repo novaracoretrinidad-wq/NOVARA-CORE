@@ -1,0 +1,374 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add this to your existing CSS styles */
+.center-title {
+    text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333];
+  text-align: center;            /* center links */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* subtle shadow for depth */
+  border-radius: 8px;            /* rounded edges */
+  padding: 1px 0;
+  height: 45x;
+  font-family: Arial, sans-serif;
+}
+
+.topnav a {
+  display: inline-block;         
+  color: white;
+  text-align: center;
+  padding: 14px 20px;           
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;            /* rounded link buttons */
+  transition: all 0.3s ease;     /* smooth hover effects */
+}
+
+.topnav a:hover {
+  background-color: #4169E1;     /* change background on hover */
+  color: black;                  /* text color on hover */
+  transform: scale(1.1);         /* slight zoom effect */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow on hover */
+}
+
+.topnav a.active {
+  background-color: #inherit;     /* active link color */
+  color: black;
+}
+
+.logo {
+  height: 60px;                 /* ✅ Adjust this value to resize the logo */
+  width: auto;
+  margin-left: 0px;   /* ✅ pushes it more to the left */
+}
+
+
+/* Controls the Navigation Bar */
+<div class="topnav">
+  <a  class="active" href="NOVHOM.html">HOME</a>
+  <a  class="active" href="NOVSERV.html">SERVICES</a>
+  <a  class="active" href="NOVREV.html">REVIEWS</a>
+  <a  class="active" href="NOVAB.html">ABOUT US</a>
+  <a  class="active" href="NOVCON.html">CONTACT US</a>
+   <input type="text" placeholder="Search..">
+</div>
+
+<div style="padding-left:16px">
+  <h2>Top Navigation Example</h2>
+  <p>Some content..</p>
+</div>
+/* Controls the catalog */
+body {
+  background-color: #333333;  /* charcoal gray */
+  color: white;               /* optional – makes text readable */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.services-section {
+  display: flex;                /* layout boxes in a row */
+  justify-content: center;      /* center the group */
+  gap: 20px;                    /* space between boxes */
+  padding: 40px 20px;
+  flex-wrap: wrap;              /* wrap on small screens */
+}
+
+.service-box {
+  background-color: #f2f2f2;    /* light gray box */
+  padding: 30px 20px;
+  width: 250px;                  /* fixed width */
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-box h3 {
+  margin-bottom: 15px;
+  color:  #00c8ff;
+}
+
+.service-box p {
+  color: #b5b5b5;
+  font-size: 15px;
+}
+
+/* Hover effect */
+.service-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+
+.reviews-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f2f2f2;
+}
+
+.reviews-section h2 {
+  font-size: 36px;
+  color: #00c8ff;
+  margin-bottom: 20px;
+}
+
+.reviews-section p {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  font-size: 18px;
+  color: #b5b5b5;
+}
+
+/* Review Form */
+.review-form {
+  max-width: 500px;
+  margin: 0 auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-form input,
+.review-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.review-form button {
+  background-color: grey;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.review-form button:hover {
+  background-color: #274BDB;
+  transform: scale(1.05);
+}
+
+/* Individual review boxes */
+.review-box {
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 500px;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.review-box h4 {
+  margin-bottom: 10px;
+  color:  #00c8ff;
+}
+
+.review-box p {
+  color: #b5b5b5;
+}
+
+
+.about-section {
+  background-color: #f2f2f2    /* light background for contrast */
+  color: grey;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:  #00c8ff;            /* matches your topnav highlight */
+}
+
+.about-section p {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #b5b5b5;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;            /* wraps on smaller screens */
+}
+
+.about-card {
+  background-color: #fff;      /* white card */
+  color: #333;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-card h3 {
+  margin-bottom: 15px;
+  color:  #00c8ff; 
+}
+
+.about-card p {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+.contact-section {
+  background-color: #f2f2f2;  /* light background for contrast */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:  #00c8ff;           /* matches topnav highlight */
+}
+
+.contact-section p {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #b5b5b5;
+}
+
+/* Container for info + form */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;           /* wrap on smaller screens */
+}
+
+/* Contact Info Box */
+.contact-info {
+  background-color: #fff;
+  padding: 30px 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.contact-info h3 {
+  margin-bottom: 15px;
+  color:  #00c8ff;
+}
+
+.contact-info p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* Contact Form */
+.contact-form {
+  background-color: #fff;
+  padding: 30px 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #274BDB;  /* darker royal blue on hover */
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 60px; /* pushes it down */
+  padding-bottom: 20px; /* adds space at bottom too */
+}
+
+
+<style>
+  body {
+    background-color: #0a0a0a;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1 {
+    color: #00c8ff; /* Electric blue */
+    text-align: center;
+    font-size: 56px;
+    text-shadow: 0 0 20px rgba(0, 200, 255, 0.6);
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #b5b5b5;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+  }
+
+  p {
+    color: #b5b5b5;
+    font-size: 18px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  strong {
+    color: #00c8ff;
+  }
+
+  em {
+    color: #00c8ff;
+    font-style: italic;
+  }
+</style>
+
+
+
